@@ -11,7 +11,7 @@ export default function WeatherInfo(props) {
         {" "}
         <Dateformat date={props.data.date} />{" "}
       </h4>
-      <div className="row">
+      <div className="row info">
         <div className="col-6">
           <WeatherTemperature fahrenheit={Math.round(props.data.temperature)} />
         <span className="feel">Feels like {Math.round(props.data.feel)}</span>
