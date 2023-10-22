@@ -1,16 +1,20 @@
-import Search from "./Search";
-import "./index.css";
+import "./App.css";
+import Weather from "./Weather";
+import "./Weather.css";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <Search />
-      <div>
-        This project is{" "}
-        <a href="https://github.com/Trivera0713/react-weather">Open Sourced</a>
-        by Thaisha Rivera
+      <div className="Container">
+        <Weather defaultCity="Allentown" />
+        <footer>
+          This project was coded by Thaisha Rivera and is Open sourced on
+          <a href="https://github.com/Trivera0713"> Github </a> Icons from
+          <a href="https://www.amcharts.com/"> Amcharts</a>
+        </footer>
       </div>
     </div>
   );
 }
+
+export default App;
