@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
       <div className="row info">
         <div className="col-6">
           <WeatherTemperature fahrenheit={Math.round(props.data.temperature)} />
-        <span className="feel">Feels like {Math.round(props.data.feel)}</span>
+          <span className="feel">Feels like {Math.round(props.data.feel)}</span>
         </div>
         <div className="col-6">
           <WeatherIcon code={props.data.icon} alt={props.data.description} />

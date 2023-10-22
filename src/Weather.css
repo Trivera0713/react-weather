@@ -1,4 +1,5 @@
 .container-main {
+  border-radius: 50px;
   border: solid 5px blue;
   max-width: 600px;
   display: block;
@@ -13,9 +14,18 @@
   border-radius: 4px;
   max-width: 1200px;
 }
+.form-control {
+  line-height: 2.5;
+  border-color: cadetblue;
+}
 .Weather form {
   margin-top: 10px;
   padding: 0 50px;
+}
+.btn {
+  padding: 15px;
+  background-color: cadetblue;
+  border: none;
 }
 .Weather h1 {
   display: block;
@@ -51,7 +61,7 @@
 .Weather .units {
   float: right;
   margin-top: -100px;
-  margin-right: 10px;
+  margin-right: 50px;
   font-size: 24px;
 }
 

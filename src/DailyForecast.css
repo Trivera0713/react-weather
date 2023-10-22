@@ -1,6 +1,14 @@
 .DailyForcast {
   text-align: center;
 }
-.ForecastMin{
+.ForecastTemp {
+  font-size: 20px;
+}
+.ForecastMin {
   opacity: 0.6;
+  padding-left: 10px;
+}
+.ForecastDay {
+  margin: 20px 0;
+  font-size: 30px;
 }
