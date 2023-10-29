@@ -1,14 +1,23 @@
-.DailyForcast {
+.DailyForecast {
   text-align: center;
+  padding-top: 30px;
 }
 .ForecastTemp {
-  font-size: 20px;
+  font-size: 30px;
+  color: white;
 }
 .ForecastMin {
   opacity: 0.6;
   padding-left: 10px;
+  color: white;
 }
 .ForecastDay {
-  margin: 20px 0;
-  font-size: 30px;
+  margin: 20px 0 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.col {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: -1px 1px 17px 7px #ff9e62;
 }

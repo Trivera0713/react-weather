@@ -1,6 +1,8 @@
 .container-main {
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 50px;
-  border: solid 5px blue;
+  border: 5px solid rgba(246, 246, 246, 0.753);
+  box-shadow: 2px 5px 17px 1px yellow;
   max-width: 600px;
   display: block;
   text-align: center;
@@ -8,7 +10,6 @@
 }
 
 .Weather {
-  border: 1px solid black;
   padding: 20px;
   margin: 30px auto;
   border-radius: 4px;
@@ -17,6 +18,76 @@
 .form-control {
   line-height: 2.5;
   border-color: cadetblue;
+}
+.Weather form {
+  margin-top: 10px;
+  padding: 0 50px;
+}
+.btn {
+  padding: 15px;
+  background-color: cadetblue;
+  border: none;
+}
+.Weather h1 {
+  display: block;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.Weather h4 {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.Weather h2 {
+  text-align: center;
+  font-size: 100px;
+  margin: 0 20px;
+}
+.Weather ul.hi-low {
+  padding: 0 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.hi-low li {
+  padding: 0 10px;
+  list-style: none;
+  font-size: 26px;
+}
+.Weather p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.Weather .units {
+  float: right;
+  margin-top: -100px;
+  margin-right: 50px;
+  font-size: 24px;
+}
+
+.Weather .feel {
+  margin: -10px 20px;
+  font-size: 22px;
+}
+.Weather img {
+  height: 150px;
+}
+.Weather .description {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.row.info {
+  padding-bottom: 20px;
+}
+@media (max-width: 860px) {
+}
+.container-main {
+  margin-top: 40px;
+}
+.form-control {
+  margin-bottom: 20px;
 }
 .Weather form {
   margin-top: 10px;
@@ -39,14 +110,15 @@
 }
 .Weather h2 {
   text-align: center;
-  font-size: 100px;
-  margin: 0 20px;
+  font-size: px;
+  margin: 0 px;
 }
 .Weather ul.hi-low {
+  font-size: 20px;
   padding: 0 90px;
   margin: 0 auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .hi-low li {
   padding: 0 10px;
@@ -58,11 +130,11 @@
   margin: 0;
   padding: 0;
 }
-.Weather .units {
+.Weather .unit {
   float: right;
   margin-top: -100px;
   margin-right: 50px;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .Weather .feel {

@@ -22,7 +22,7 @@ export default function Dateformat(props) {
     "August",
     "September",
     "October",
-    "Novemeber",
+    "November",
     "Decemeber",
   ];
   let day = days[props.date.getDay()];
