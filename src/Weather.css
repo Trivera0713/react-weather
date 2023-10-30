@@ -19,20 +19,29 @@
 }
 .form-control {
   line-height: 2.5;
-  border-color: cadetblue;
+  box-shadow: 2px 2px 10px 1px rgb(5, 161, 172);
 }
 .Weather form {
   margin-top: 10px;
   padding: 0 50px;
 }
-.btn {
-  padding: 15px;
-  background-color: cadetblue;
+.btn-primary {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+  background-color: white;
+  padding: 14px;
+  box-shadow: 2px 2px 10px 1px rgb(5, 161, 172);
   border: none;
 }
-.Weather h1 {
+:hover.btn-primary {
+  color: white;
+  background-color: rgb(5, 161, 172);
+  box-shadow: inset 2px -1px 14px 6px rgb(255 255 255);
+}
+.Weather h3 {
   display: block;
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 20px;
 }
 .Weather h4 {
@@ -46,7 +55,8 @@
   margin: 10px 20px;
 }
 .Weather ul.hi-low {
-  padding: 0 90px;
+  font-size: 24px;
+  padding: 0 80px;
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
@@ -56,12 +66,8 @@
   list-style: none;
   font-size: 26px;
 }
-.Weather p {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-.Weather .units {
+
+.Weather .unit {
   float: right;
   margin-top: -100px;
   margin-right: 50px;
@@ -70,7 +76,7 @@
 
 .Weather .feel {
   margin: -10px 20px;
-  font-size: 22px;
+  font-size: 26px;
 }
 .Weather img {
   height: 150px;
@@ -84,75 +90,60 @@
   padding-bottom: 20px;
 }
 @media (max-width: 860px) {
-}
-.container-main {
-  margin-top: 40px;
-}
-.form-control {
-  margin-bottom: 20px;
-}
-.Weather form {
-  margin-top: 10px;
-  padding: 0 50px;
-}
-.btn {
-  padding: 15px;
-  background-color: cadetblue;
-  border: none;
-}
-.Weather h1 {
-  display: block;
-  font-size: 50px;
-  margin-top: 20px;
-}
-.Weather h4 {
-  display: block;
-  font-size: 16px;
-  padding-bottom: 20px;
-}
-.Weather h2 {
-  text-align: center;
-  font-size: px;
-  margin: 0 px;
-}
-.Weather ul.hi-low {
-  font-size: 20px;
-  padding: 0 90px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-.hi-low li {
-  padding: 0 10px;
-  list-style: none;
-  font-size: 26px;
-}
-.Weather p {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-.Weather .unit {
-  float: right;
-  margin-top: -100px;
-  margin-right: 50px;
-  font-size: 30px;
-}
-#main-icon {
-  height: 300px;
-}
-.Weather .feel {
-  margin: -10px 20px;
-  font-size: 24px;
-}
-.Weather img {
-  height: 150px;
-}
-.Weather .description {
-  font-weight: bold;
-  font-size: 26px;
-  text-align: center;
-}
-.row.info {
-  padding-bottom: 20px;
+  .container-main {
+    margin-top: 40px;
+  }
+  .form-control {
+    margin-bottom: 20px;
+  }
+  .Weather form {
+    margin-top:0;
+    padding: 0 20px;
+  }
+  .btn-primary {
+    padding: 15px;
+    box-shadow: 2px 2px 10px 1px rgb(5, 161, 172);
+    border: none;
+  }
+  :hover.btn-primary {
+    color: white;
+    background-color: rgb(5, 161, 172);
+    box-shadow: inset 2px -1px 14px 6px rgb(255 255 255);
+  }
+  .container-main img.weathericon {
+    height: 150px;
+  }
+  .Weather h3 {
+    display: block;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .Weather h4 {
+    display: block;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  .Weather h2 {
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+  }
+  .Weather ul.hi-low {
+    font-size: 20px;
+    padding: 0 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Weather .unit {
+    float: right;
+    margin-top: -100px;
+    margin-right: 80px;
+    font-size: 30px;
+  }
+  footer {
+    padding: 0 20px 30px;
+  }
 }

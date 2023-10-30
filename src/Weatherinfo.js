@@ -5,7 +5,7 @@ import WeatherIcon from "./WeatherIcon";
 export default function WeatherInfo(props) {
   return (
     <div className="container-main">
-      <h1>{props.data.city}</h1>
+      <h3>{props.data.city}</h3>
       <h4>
         {" "}
         <Dateformat date={props.data.date} />{" "}

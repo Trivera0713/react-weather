@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="Container">
+        <h1>Weather Forecast</h1>
         <Weather defaultCity="Allentown" />
         <footer>
           This project was coded by Thaisha Rivera and is Open sourced on
